@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ورود • دیجی‌کالا</title>
-</head>
-<body>
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/styles/reset.css" />
+	<link rel="stylesheet" href="assets/styles/index.css" />
+
+<body>
+	<div id="login-box">
+		<img id="logo" src="assets/images/logo.svg" alt="Digikala Logo">
+
+		<h1 id="title">ورود | ثبت‌نام</h1>
+		<p class="help-text">
+			سلام!
+			<br />
+			لطفا شماره موبایل یا ایمیل خود را وارد کنید
+		</p>
+
+		<div class="input-box">
+			<!-- <label for="username">ایمیل یا موبایل</label> -->
+			<input type="text" id="username" class="input-text" placeholder="ایمیل یا شماره موبایل" spellcheck="false" />
+			<p class="input-status">لطفا این قسمت را خالی نگذارید</p>
+		</div>
+
+		<button id="login-button">ورود</button>
+
+		<p id="terms" class="help-text">
+			ورود شما به معنای پذیرش
+			<a class="link" href="https://www.digikala.com/page/terms/">شرایط دیجی‌کالا</a>
+			و
+			<a class="link" href="https://www.digikala.com/page/privacy/">قوانین حریم‌خصوصی</a>
+			است
+		</p>
+	</div>
 </body>
+
 </html>

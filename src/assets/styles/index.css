@@ -1,0 +1,107 @@
+html {
+	font-family: Vazirmatn, Vazir, sans-serif;
+	direction: rtl;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#login-box {
+	padding: 30px;
+	width: 400px;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+}
+
+#logo {
+	width: 100px;
+	display: block;
+	margin-inline: auto;
+	margin-bottom: 30px;
+}
+
+#title {
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+.help-text {
+	color: #7d7d7d;
+	font-size: 13px;
+	line-height: 2;
+}
+
+.input-box {
+	margin-block: 20px 30px;
+}
+
+.input-text {
+	padding: 12px 15px;
+	border-radius: 8px;
+	border: 1px solid #7d7d7d;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 6px;
+	transition: 200ms;
+}
+
+.input-text::placeholder {
+	font-family: Vazirmatn, Vazir, sans-serif;
+	direction: rtl;
+	text-align: right;
+}
+
+.input-text:placeholder-shown {
+	border-color: #b2001a;
+}
+
+.input-text:focus {
+	border-color: #16a7b7;
+}
+
+.input-text:focus + .input-status,
+.input-text:not(:placeholder-shown) + .input-status {
+	display: none;
+}
+
+#username {
+	direction: ltr;
+	font-family: "Segoe UI", Vazirmatn, Vazir, sans-serif;
+}
+
+.input-status {
+	color: #b2001a;
+	font-size: 12px;
+}
+
+#login-button {
+	background-color: #ef4056;
+	padding: 13px;
+	text-align: center;
+	border-radius: 10px;
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 16px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#login-button:hover {
+	background-color: #f4697c;
+}
+
+#terms {
+	font-size: 12px;
+	color: rgb(58, 58, 58);
+}
+
+.link {
+	color: #008eb2;
+	text-decoration: none;
+}
